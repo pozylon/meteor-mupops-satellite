@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use(
       [
         'coffeescript',
-        'iron:router'
+        'iron:router@1.0.9'
       ]);
 
   api.addFiles('lib/devops-satellite.coffee');
